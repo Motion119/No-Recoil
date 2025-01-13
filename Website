@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hickson Cleans - Rug Cleaning Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('rug-cleaning.jpg'); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h2 {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+        }
+
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .content h2 {
+            margin-bottom: 1rem;
+        }
+
+        .content p {
+            line-height: 1.6;
+        }
+
+        .contact {
+            background-color: #ddd;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .contact form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .contact form input,
+        .contact form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+        }
+
+        .contact form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            cursor: pointer;
+        }
+
+        .contact form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hickson Cleans</h1>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Professional Rug Cleaning Services</h2>
+    </div>
+    <section class="content" id="services">
+        <h2>Our Services</h2>
+        <p>We specialize in deep cleaning rugs, removing stains, and ensuring your carpets look and feel fresh.</p>
+    </section>
+    <section class="content" id="about">
+        <h2>About Us</h2>
+        <p>Hickson Cleans is a trusted name in commercial and residential cleaning. We bring years of expertise to every job.</p>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Hickson Cleans. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
